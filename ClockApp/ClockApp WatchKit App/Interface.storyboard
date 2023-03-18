@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="21225" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc" pageOrientation="vertical">
+    <device id="watch49"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="21040"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller contentMode="scaleAspectFill" fullBounds="YES" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ClockApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group height="217" alignment="center" layout="overlap" id="5fz-BF-EZm">
+                            <items>
+                                <imageView alignment="center" verticalAlignment="center" image="faceWatch" id="fsv-OE-5rq"/>
+                                <group width="1" height="219" alignment="left" id="74S-8i-hBy">
+                                    <items>
+                                        <spriteKitScene alignment="center" verticalAlignment="center" id="Pp1-3K-WNc"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <edgeInsets key="margins" left="1" right="1" top="0.0" bottom="0.0"/>
+                    <connections>
+                        <outlet property="mainGroup" destination="5fz-BF-EZm" id="Ucl-4R-Xz6"/>
+                        <outlet property="skInterface" destination="Pp1-3K-WNc" id="C4G-pL-vlp"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="92.214634146341467" y="-1.693227091633466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="faceWatch" width="450" height="470"/>
+    </resources>
+</document>
