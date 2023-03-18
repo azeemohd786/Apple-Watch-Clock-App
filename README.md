@@ -1,4 +1,4 @@
-# Apple-Watch-Clock-App
+# Apple-Watch-Clock-App | Custom Apple Watch Face
 
 The Apple Watch Clock App source code is for tutorial purpose by referring some resources and libraries.
 
