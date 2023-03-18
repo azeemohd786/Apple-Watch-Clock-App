@@ -2,8 +2,10 @@
 
 The Apple Watch Clock App source code is for tutorial purpose by referring some resources and libraries.
 
+Watch Youtube video for quick explanation: https://youtu.be/cYp4jZIbVHI
 
-![oie_h1FSoR7fZEIT](https://user-images.githubusercontent.com/37884888/226095804-1f8cb7b7-347c-4d51-a8b7-22eb5660b1e9.jpg)
+![oie_wj7EunAIgfPW](https://user-images.githubusercontent.com/37884888/226101025-080cff6b-9d9e-4bc3-9abc-fa7cf5367980.jpg)
+
 
 Resources: 
 1. Hide the digital time : https://github.com/mhdhejazi/Dynamic
